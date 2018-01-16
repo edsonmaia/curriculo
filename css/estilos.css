@@ -1,0 +1,129 @@
+/* Estilos das páginas menu, curriculo, perfil e config  */
+
+/* configuracoes globais */
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Tahoma, Verdana, open-sans;
+	font-size: 18px;
+	line-height: 28px;
+}
+/* configuracoes do html e body */
+html, body {
+	height:100%;
+	background: #ececec;
+}
+/* div com a id tela */
+#tela {
+	width: 100%;
+	height: 100%;
+}
+/* section com a id conteudo */
+#conteudo {
+	display: block;
+	width: 640px;
+	margin: auto; /* centralizar div */ 
+	padding: 10px;
+}
+/* header com id topo */
+header {
+	width: 100%;
+	height: 50px;
+	background: #004d40; /* verde 900 */
+	display: block;
+}
+/* titulo dentro do header */
+header h1 {
+	text-align: center;
+	line-height: 50px;
+	font-size: 25px;
+	color: #fff;
+}
+/* span do link dentro do header */
+span a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+}
+/* footer com id rodape */
+footer {
+	width: 100%;
+	height: 25px;
+	background: #009688; /* verde 500 */
+	color: #fff;
+	position: absolute;
+	bottom: 0; /* posicionar em baixo */
+	display:block; /* ver em bloco */
+	clear:both; /* div ficar abaixo de todas display block */
+}
+/* paragrafo dentro do footer */
+footer p {
+	line-height: 25px;
+}
+/* nav com id menu */
+nav {
+	margin-top: 10px;
+}
+/* links da nav com id menu */
+nav a {
+	text-decoration: none; /* tirar sublinhado */
+	color: #222;
+	font-weight: bold;
+}
+/* links no estado hover da nav com id menu */
+nav a:hover {
+	color: #009688; /* cor verde */
+}
+/* lista dentro da nav com id menu */
+nav ul {
+	list-style: none; /* tirar marcadores */
+}
+/* listas e seus itens estao no menu e curriculo.html */
+ul li, ol li {
+	margin-left: 40px;
+	line-height: 30px;
+}
+/* titulo de nivel 2 estao no curriculo.html */
+h2 {
+	line-height: 40px;
+}
+/* paragrafos e blocos de citacao */
+p, blockquote {
+	text-align: center;
+	line-height: 26px;
+}
+/* bloco de citacao */
+blockquote {
+	width: 480px;
+	height: auto;
+	background: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* linha horizontal */
+hr {
+	margin: 10px;
+}
+/* figure que recebe a img foto */
+figure {
+	width: 105px;
+	height: 105px;
+	background: #fff;
+	border-radius: 75px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #cecece;
+	box-shadow: 0px 1px 2px #ccc;
+}
+/* img com id foto */
+img {
+	width: 85px;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 10px;
+}
